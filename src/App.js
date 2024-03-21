@@ -1,7 +1,7 @@
 import logo from './dino.png';
 import './App.css';
 import React from 'react';
-import AdSense from 'react-adsense';
+//import AdSense from 'react-adsense';
 
 function App() {
   return (
@@ -12,12 +12,6 @@ function App() {
           Dino's Web
         </p>
       </header>
-      <AdSense.Google
-        client='ca-pub-150141917050715'  // Replace with your AdSense client ID
-        slot='3960427959'      // Replace with your AdSense ad unit ID
-        style={{ display: 'block' }}
-        format='auto'
-      />
     </div>
   );
 }
